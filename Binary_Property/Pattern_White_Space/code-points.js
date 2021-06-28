@@ -1,1 +1,1 @@
-module.exports=[9,10,11,12,13,32,133,8206,8207,8232,8233]
+module.exports=require('./ranges').flatMap(r=>Array.from(r.keys()))

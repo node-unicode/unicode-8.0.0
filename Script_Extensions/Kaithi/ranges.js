@@ -1,0 +1,1 @@
+module.exports=require('../../decode-ranges.js')('wlmJ4J6_J2hFhB')
