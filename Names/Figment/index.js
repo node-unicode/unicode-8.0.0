@@ -1,0 +1,1 @@
+module.exports=JSON.parse(require('zlib').gunzipSync(Buffer.from('H4sIAAAAAAAAA6tWMjSyULKKVgpwdHHx9HNXcPZwDHJ0DnENUorVAcpZguQ8PN09FPyBgiEKAUGuwa4hYDlTY5BcMFCTj6uCe5BjgIenM0K7gqdfSJC/S6gzyKRaAEnBiKVnAAAA','base64')))

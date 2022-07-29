@@ -57,6 +57,16 @@ const openingBrackets = require('@unicode/unicode-8.0.0/Bidi_Paired_Bracket_Type
 Other than categories, data on Unicode properties, blocks, scripts, and script extensions is available too (for recent versions of the Unicode standard). Here’s the full list of the available data for v8.0.0:
 
 ```js
+// `Names`:
+
+require('@unicode/unicode-8.0.0/Names/index.js'); // array of canonical names
+require('@unicode/unicode-8.0.0/Names/Abbreviation/index.js'); // lookup map from code point to aliases
+require('@unicode/unicode-8.0.0/Names/Alternate/index.js'); // lookup map from code point to aliases
+require('@unicode/unicode-8.0.0/Names/Control/index.js'); // lookup map from code point to aliases
+require('@unicode/unicode-8.0.0/Names/Correction/index.js'); // lookup map from code point to aliases
+require('@unicode/unicode-8.0.0/Names/Figment/index.js'); // lookup map from code point to aliases
+
+
 // `Binary_Property`:
 
 require('@unicode/unicode-8.0.0/Binary_Property/ASCII/code-points.js');
