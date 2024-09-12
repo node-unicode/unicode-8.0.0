@@ -117,6 +117,10 @@ require('@unicode/unicode-8.0.0/Binary_Property/Changes_When_Lowercased/code-poi
 require('@unicode/unicode-8.0.0/Binary_Property/Changes_When_Lowercased/symbols.js');
 require('@unicode/unicode-8.0.0/Binary_Property/Changes_When_Lowercased/regex.js');
 
+require('@unicode/unicode-8.0.0/Binary_Property/Changes_When_NFKC_Casefolded/code-points.js');
+require('@unicode/unicode-8.0.0/Binary_Property/Changes_When_NFKC_Casefolded/symbols.js');
+require('@unicode/unicode-8.0.0/Binary_Property/Changes_When_NFKC_Casefolded/regex.js');
+
 require('@unicode/unicode-8.0.0/Binary_Property/Changes_When_Titlecased/code-points.js');
 require('@unicode/unicode-8.0.0/Binary_Property/Changes_When_Titlecased/symbols.js');
 require('@unicode/unicode-8.0.0/Binary_Property/Changes_When_Titlecased/regex.js');
