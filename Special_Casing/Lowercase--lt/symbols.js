@@ -1,0 +1,1 @@
+module.exports=new Map([['\xCC','i\u0307\u0300'],['\xCD','i\u0307\u0301'],['\u0128','i\u0307\u0303']])

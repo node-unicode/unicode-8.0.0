@@ -2944,6 +2944,173 @@ require('@unicode/unicode-8.0.0/Word_Break/Regional_Indicator/regex.js');
 require('@unicode/unicode-8.0.0/Word_Break/Single_Quote/code-points.js');
 require('@unicode/unicode-8.0.0/Word_Break/Single_Quote/symbols.js');
 require('@unicode/unicode-8.0.0/Word_Break/Single_Quote/regex.js');
+
+// `Special_Casing`:
+
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--Final_Sigma/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--Final_Sigma/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--Final_Sigma/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--Final_Sigma/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--az/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--az/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--az/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--az/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--az--After_I/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--az--After_I/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--az--After_I/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--az--After_I/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--az--Not_Before_Dot/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--az--Not_Before_Dot/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--az--Not_Before_Dot/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--az--Not_Before_Dot/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--lt/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--lt/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--lt/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--lt/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--lt--After_Soft_Dotted/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--lt--After_Soft_Dotted/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--lt--After_Soft_Dotted/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--lt--After_Soft_Dotted/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--lt--More_Above/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--lt--More_Above/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--lt--More_Above/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--lt--More_Above/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--tr/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--tr/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--tr/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--tr/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--tr--After_I/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--tr--After_I/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--tr--After_I/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--tr--After_I/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--tr--Not_Before_Dot/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--tr--Not_Before_Dot/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--tr--Not_Before_Dot/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Lowercase--tr--Not_Before_Dot/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--Final_Sigma/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--Final_Sigma/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--Final_Sigma/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--Final_Sigma/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--az/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--az/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--az/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--az/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--az--After_I/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--az--After_I/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--az--After_I/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--az--After_I/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--az--Not_Before_Dot/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--az--Not_Before_Dot/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--az--Not_Before_Dot/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--az--Not_Before_Dot/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--lt/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--lt/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--lt/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--lt/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--lt--After_Soft_Dotted/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--lt--After_Soft_Dotted/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--lt--After_Soft_Dotted/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--lt--After_Soft_Dotted/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--lt--More_Above/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--lt--More_Above/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--lt--More_Above/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--lt--More_Above/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--tr/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--tr/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--tr/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--tr/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--tr--After_I/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--tr--After_I/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--tr--After_I/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--tr--After_I/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--tr--Not_Before_Dot/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--tr--Not_Before_Dot/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--tr--Not_Before_Dot/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Titlecase--tr--Not_Before_Dot/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--Final_Sigma/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--Final_Sigma/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--Final_Sigma/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--Final_Sigma/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--az/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--az/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--az/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--az/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--az--After_I/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--az--After_I/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--az--After_I/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--az--After_I/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--az--Not_Before_Dot/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--az--Not_Before_Dot/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--az--Not_Before_Dot/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--az--Not_Before_Dot/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--lt/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--lt/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--lt/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--lt/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--lt--After_Soft_Dotted/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--lt--After_Soft_Dotted/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--lt--After_Soft_Dotted/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--lt--After_Soft_Dotted/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--lt--More_Above/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--lt--More_Above/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--lt--More_Above/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--lt--More_Above/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--tr/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--tr/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--tr/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--tr/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--tr--After_I/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--tr--After_I/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--tr--After_I/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--tr--After_I/symbols.js').get(symbol);
+
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--tr--Not_Before_Dot/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--tr--Not_Before_Dot/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--tr--Not_Before_Dot/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Special_Casing/Uppercase--tr--Not_Before_Dot/symbols.js').get(symbol);
 ```
 
 ## Author
