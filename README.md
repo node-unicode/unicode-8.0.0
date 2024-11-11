@@ -2947,17 +2947,20 @@ require('@unicode/unicode-8.0.0/Word_Break/Single_Quote/regex.js');
 
 // `Simple_Case_Mapping`:
 
-require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Lowercase/code-points.js');
-require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Lowercase/symbols.js');
-require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Lowercase/regex.js');
+require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Lowercase/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Lowercase/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Lowercase/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Lowercase/symbols.js').get(symbol);
 
-require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Titlecase/code-points.js');
-require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Titlecase/symbols.js');
-require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Titlecase/regex.js');
+require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Titlecase/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Titlecase/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Titlecase/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Titlecase/symbols.js').get(symbol);
 
-require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Uppercase/code-points.js');
-require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Uppercase/symbols.js');
-require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Uppercase/regex.js');
+require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Uppercase/code-points.js'); // lookup map from code point to code point or array of code points
+require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Uppercase/code-points.js').get(codePoint);
+require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Uppercase/symbols.js'); // lookup map from symbol to symbol(s)
+require('@unicode/unicode-8.0.0/Simple_Case_Mapping/Uppercase/symbols.js').get(symbol);
 
 // `Special_Casing`:
 
