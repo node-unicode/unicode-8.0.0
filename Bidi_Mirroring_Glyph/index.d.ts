@@ -1,2 +1,2 @@
-const data: Map<number, string>;
-export default data;
+declare const data: Map<number, string>;
+export = data;
