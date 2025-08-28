@@ -1,2 +1,2 @@
-declare const symbols: string[];
+declare const symbols: Map<string, string>;
 export = symbols;
