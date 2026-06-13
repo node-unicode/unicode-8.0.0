@@ -1,0 +1,1 @@
+module.exports=/\u1B3D/

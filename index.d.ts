@@ -7,6 +7,8 @@ export const Case_Folding: string[];
 export const Block: string[];
 export const Bidi_Mirroring_Glyph: string[];
 export const Bidi_Paired_Bracket_Type: string[];
+export const Indic_Positional_Category: string[];
+export const Indic_Syllabic_Category: string[];
 export const Line_Break: string[];
 export const Grapheme_Cluster_Break: string[];
 export const Word_Break: string[];
