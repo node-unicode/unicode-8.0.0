@@ -1,2 +1,2 @@
 declare const map: Map<number, string>;
-export = map;
+export default map;

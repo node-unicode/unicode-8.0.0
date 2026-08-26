@@ -1,0 +1,1 @@
+export default /\uD80C[\uDC00-\uDFFF]|\uD80D[\uDC00-\uDC2F]/;

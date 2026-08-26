@@ -1,0 +1,1 @@
+export default /\u0640|\uD802[\uDEC0-\uDEE6\uDEEB-\uDEF6]/;

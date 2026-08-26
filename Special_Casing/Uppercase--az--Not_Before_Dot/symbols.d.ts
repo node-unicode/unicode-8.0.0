@@ -1,2 +1,2 @@
 declare const symbols: Map<string, string>;
-export = symbols;
+export default symbols;

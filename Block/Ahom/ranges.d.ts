@@ -1,4 +1,4 @@
-import type { UnicodeRange } from "../../decode-ranges.js";
+import type { UnicodeRange } from "../../decode-ranges.mjs";
 
 declare const ranges: UnicodeRange[];
-export = ranges;
+export default ranges;

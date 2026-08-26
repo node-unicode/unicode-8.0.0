@@ -1,0 +1,1 @@
+export default /[\u1970-\u1974\uAAC0\uAAC2]/;

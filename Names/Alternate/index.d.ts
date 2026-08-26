@@ -1,2 +1,2 @@
 declare const aliasMap: Record<number, string[]>;
-export = aliasMap;
+export default aliasMap;

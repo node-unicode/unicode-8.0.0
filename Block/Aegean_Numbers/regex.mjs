@@ -1,0 +1,1 @@
+export default /\uD800[\uDD00-\uDD3F]/;

@@ -1,2 +1,2 @@
 declare const regex: RegExp;
-export = regex;
+export default regex;

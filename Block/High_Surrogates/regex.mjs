@@ -1,0 +1,1 @@
+export default /[\uD800-\uDB7F](?![\uDC00-\uDFFF])/;

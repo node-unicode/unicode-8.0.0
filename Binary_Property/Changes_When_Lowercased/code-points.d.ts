@@ -1,2 +1,2 @@
 declare const codePoints: number[];
-export = codePoints;
+export default codePoints;

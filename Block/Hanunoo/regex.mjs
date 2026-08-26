@@ -1,0 +1,1 @@
+export default /[\u1720-\u173F]/;

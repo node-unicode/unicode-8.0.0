@@ -1,0 +1,1 @@
+export default /\uD802[\uDC40-\uDC5F]/;

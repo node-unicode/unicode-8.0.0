@@ -1,0 +1,1 @@
+export default /[\u09CE\u0D7A-\u0D7F]/;

@@ -1,2 +1,2 @@
 declare const symbols: string[];
-export = symbols;
+export default symbols;
