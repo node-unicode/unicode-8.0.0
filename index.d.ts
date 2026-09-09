@@ -13,6 +13,7 @@ export const Line_Break: string[];
 export const Grapheme_Cluster_Break: string[];
 export const Word_Break: string[];
 export const Sentence_Break: string[];
+export const Joining_Type: string[];
 export const Names: string[];
 export const Simple_Case_Mapping: string[];
 export const Special_Casing: string[];
