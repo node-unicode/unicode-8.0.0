@@ -1,1 +1,0 @@
-module.exports=['\u09CE','\u0D7A','\u0D7B','\u0D7C','\u0D7D','\u0D7E','\u0D7F']

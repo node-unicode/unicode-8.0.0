@@ -1,1 +1,0 @@
-module.exports=['\u0B83']

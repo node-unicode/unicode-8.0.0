@@ -1,1 +1,0 @@
-module.exports=['\u0B48','\u0DDA','\u17BE','\u1C29','\uD805\uDCBB','\uD805\uDDB9']
