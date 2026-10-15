@@ -3283,6 +3283,10 @@ import Right_JoiningCodePoints from '@unicode/unicode-8.0.0/Joining_Type/Right_J
 import Right_JoiningSymbols from '@unicode/unicode-8.0.0/Joining_Type/Right_Joining/symbols.mjs';
 import Right_JoiningRegex from '@unicode/unicode-8.0.0/Joining_Type/Right_Joining/regex.mjs';
 
+import TransparentCodePoints from '@unicode/unicode-8.0.0/Joining_Type/Transparent/code-points.mjs';
+import TransparentSymbols from '@unicode/unicode-8.0.0/Joining_Type/Transparent/symbols.mjs';
+import TransparentRegex from '@unicode/unicode-8.0.0/Joining_Type/Transparent/regex.mjs';
+
 // `Simple_Case_Mapping`:
 
 import LowercaseCodePoints from '@unicode/unicode-8.0.0/Simple_Case_Mapping/Lowercase/code-points.mjs'; // Lookup map from code point to code point or array of code points.
@@ -3394,6 +3398,59 @@ import Uppercase__tr__After_ISymbols from '@unicode/unicode-8.0.0/Special_Casing
 
 import Uppercase__tr__Not_Before_DotCodePoints from '@unicode/unicode-8.0.0/Special_Casing/Uppercase--tr--Not_Before_Dot/code-points.mjs'; // Lookup map from code point to code point or array of code points.
 import Uppercase__tr__Not_Before_DotSymbols from '@unicode/unicode-8.0.0/Special_Casing/Uppercase--tr--Not_Before_Dot/symbols.mjs'; // Lookup map from symbol to symbol(s).
+
+// `Decomposition_Mapping`:
+
+import CanonicalCodePoints from '@unicode/unicode-8.0.0/Decomposition_Mapping/Canonical/code-points.mjs'; // Lookup map from code point to code point or array of code points.
+import CanonicalSymbols from '@unicode/unicode-8.0.0/Decomposition_Mapping/Canonical/symbols.mjs'; // Lookup map from symbol to symbol(s).
+
+import CircleCodePoints from '@unicode/unicode-8.0.0/Decomposition_Mapping/Circle/code-points.mjs'; // Lookup map from code point to code point or array of code points.
+import CircleSymbols from '@unicode/unicode-8.0.0/Decomposition_Mapping/Circle/symbols.mjs'; // Lookup map from symbol to symbol(s).
+
+import CompatCodePoints from '@unicode/unicode-8.0.0/Decomposition_Mapping/Compat/code-points.mjs'; // Lookup map from code point to code point or array of code points.
+import CompatSymbols from '@unicode/unicode-8.0.0/Decomposition_Mapping/Compat/symbols.mjs'; // Lookup map from symbol to symbol(s).
+
+import FinalCodePoints from '@unicode/unicode-8.0.0/Decomposition_Mapping/Final/code-points.mjs'; // Lookup map from code point to code point or array of code points.
+import FinalSymbols from '@unicode/unicode-8.0.0/Decomposition_Mapping/Final/symbols.mjs'; // Lookup map from symbol to symbol(s).
+
+import FontCodePoints from '@unicode/unicode-8.0.0/Decomposition_Mapping/Font/code-points.mjs'; // Lookup map from code point to code point or array of code points.
+import FontSymbols from '@unicode/unicode-8.0.0/Decomposition_Mapping/Font/symbols.mjs'; // Lookup map from symbol to symbol(s).
+
+import FractionCodePoints from '@unicode/unicode-8.0.0/Decomposition_Mapping/Fraction/code-points.mjs'; // Lookup map from code point to code point or array of code points.
+import FractionSymbols from '@unicode/unicode-8.0.0/Decomposition_Mapping/Fraction/symbols.mjs'; // Lookup map from symbol to symbol(s).
+
+import InitialCodePoints from '@unicode/unicode-8.0.0/Decomposition_Mapping/Initial/code-points.mjs'; // Lookup map from code point to code point or array of code points.
+import InitialSymbols from '@unicode/unicode-8.0.0/Decomposition_Mapping/Initial/symbols.mjs'; // Lookup map from symbol to symbol(s).
+
+import IsolatedCodePoints from '@unicode/unicode-8.0.0/Decomposition_Mapping/Isolated/code-points.mjs'; // Lookup map from code point to code point or array of code points.
+import IsolatedSymbols from '@unicode/unicode-8.0.0/Decomposition_Mapping/Isolated/symbols.mjs'; // Lookup map from symbol to symbol(s).
+
+import MedialCodePoints from '@unicode/unicode-8.0.0/Decomposition_Mapping/Medial/code-points.mjs'; // Lookup map from code point to code point or array of code points.
+import MedialSymbols from '@unicode/unicode-8.0.0/Decomposition_Mapping/Medial/symbols.mjs'; // Lookup map from symbol to symbol(s).
+
+import NarrowCodePoints from '@unicode/unicode-8.0.0/Decomposition_Mapping/Narrow/code-points.mjs'; // Lookup map from code point to code point or array of code points.
+import NarrowSymbols from '@unicode/unicode-8.0.0/Decomposition_Mapping/Narrow/symbols.mjs'; // Lookup map from symbol to symbol(s).
+
+import NobreakCodePoints from '@unicode/unicode-8.0.0/Decomposition_Mapping/Nobreak/code-points.mjs'; // Lookup map from code point to code point or array of code points.
+import NobreakSymbols from '@unicode/unicode-8.0.0/Decomposition_Mapping/Nobreak/symbols.mjs'; // Lookup map from symbol to symbol(s).
+
+import SmallCodePoints from '@unicode/unicode-8.0.0/Decomposition_Mapping/Small/code-points.mjs'; // Lookup map from code point to code point or array of code points.
+import SmallSymbols from '@unicode/unicode-8.0.0/Decomposition_Mapping/Small/symbols.mjs'; // Lookup map from symbol to symbol(s).
+
+import SquareCodePoints from '@unicode/unicode-8.0.0/Decomposition_Mapping/Square/code-points.mjs'; // Lookup map from code point to code point or array of code points.
+import SquareSymbols from '@unicode/unicode-8.0.0/Decomposition_Mapping/Square/symbols.mjs'; // Lookup map from symbol to symbol(s).
+
+import SubCodePoints from '@unicode/unicode-8.0.0/Decomposition_Mapping/Sub/code-points.mjs'; // Lookup map from code point to code point or array of code points.
+import SubSymbols from '@unicode/unicode-8.0.0/Decomposition_Mapping/Sub/symbols.mjs'; // Lookup map from symbol to symbol(s).
+
+import SuperCodePoints from '@unicode/unicode-8.0.0/Decomposition_Mapping/Super/code-points.mjs'; // Lookup map from code point to code point or array of code points.
+import SuperSymbols from '@unicode/unicode-8.0.0/Decomposition_Mapping/Super/symbols.mjs'; // Lookup map from symbol to symbol(s).
+
+import VerticalCodePoints from '@unicode/unicode-8.0.0/Decomposition_Mapping/Vertical/code-points.mjs'; // Lookup map from code point to code point or array of code points.
+import VerticalSymbols from '@unicode/unicode-8.0.0/Decomposition_Mapping/Vertical/symbols.mjs'; // Lookup map from symbol to symbol(s).
+
+import WideCodePoints from '@unicode/unicode-8.0.0/Decomposition_Mapping/Wide/code-points.mjs'; // Lookup map from code point to code point or array of code points.
+import WideSymbols from '@unicode/unicode-8.0.0/Decomposition_Mapping/Wide/symbols.mjs'; // Lookup map from symbol to symbol(s).
 ```
 
 ## Author
