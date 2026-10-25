@@ -1,3 +1,4 @@
-import { gunzipSync } from 'node:zlib';
+import codePoints from './code-points.mjs';
+import mappingToSymbols from '../../mapping-to-symbols.mjs';
 
-export default new Map(JSON.parse(gunzipSync(Buffer.from('H4sIAAAAAAAAEy3Qtw3CYBgG4V2+2htZ3oWccwaDTc6hcIeQ/4JJvAnS8ZaPrjvft+wdmWff2ALPtyytmWdZmpPqKC81UEFqoqLUQiWpjcpSB1WkLqpKM9ST5qgvLdBACtFQWqKRtEJjKUITKUZT6YzW0gVtpCvaSje0k+5oLz3QQXqio/RCJ+mDkr8cl5yeOZpLLAh+xnf6ZIgBAAA=', 'base64'))));
+export default mappingToSymbols(codePoints);

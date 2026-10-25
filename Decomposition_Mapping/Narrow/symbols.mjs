@@ -1,3 +1,4 @@
-import { gunzipSync } from 'node:zlib';
+import codePoints from './code-points.mjs';
+import mappingToSymbols from '../../mapping-to-symbols.mjs';
 
-export default new Map(JSON.parse(gunzipSync(Buffer.from('H4sIAAAAAAAAEzXUx3UbQRAG4VxwZkZ8zIVmmt57770RRe97coECUAp6W6o5focFyO2/MDjY+/tz1Bvo/Rke7Q0NdDpGs+oEzalTNKLOOo19qXP0qC46jR6pS3SirtCZukYX6gZdqVs+sz13h9pzv1B77h6Nqd/oWz3wmcfqEZ2qJ3SuntGlekHX6hXdqDd0p97RvfpAD+oTPakv9KK+0Zv6QR8qUXu7Ff38Vw6jqkb4b71KjqKixtC4KmhSBZpW42hGTSBXkJPIFeQUmlfTaEHNoGU1i9bUHNpU82hHLaB9tYgO1BI6VMvIZeUK8ra5irxtriFvm+vI2+YGcme5ibx0biEvndvoVu0g7567yLvnHvLSuc+NttQB2laHnaL9nfRX3EvSX7GjpL/SPpP+yrOiv+KWkv7Kq6K/4rKS/sq7or/izpL+yqeiv+Lqkv6KHSX9lbZB+iup6K+0RdJfDCv6i7ZP+gt/bZL+wm6T/qJtl/4iFP1FWzL9xYSiv2i7pr+YUvQXbeX0F23l9Bdt5fQXbeX0F668UlW48kpVsaioKpYUVYUFVKqKFUVVsaooJ6yjUk6sK8qJDUU5YTmVcsJlVcoJl1WpI6yqUkfsKuqIPUUdYXGVOsLiKnWExVUKCIurFBAWVykg/IWu3c76q962djvrj7e3dI3aW7pB7S3dovaWup3119u3dzvrb8z0hob+Acn8TZ+tBgAA', 'base64'))));
+export default mappingToSymbols(codePoints);

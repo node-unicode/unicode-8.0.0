@@ -1,3 +1,3 @@
-import { gunzipSync } from 'node:zlib';
+import { brotliDecompressSync } from 'node:zlib';
 
-export default JSON.parse(gunzipSync(Buffer.from('H4sIAAAAAAAAE6tWMjM1MrdUsopWcooMcVXwD3JxDVLwdQzyVoqtBQDR/ZpDHQAAAA==', 'base64')));
+export default JSON.parse(brotliDecompressSync(Buffer.from('Dw6AeyI2NTI3OSI6WyJCWVRFIE9SREVSIE1BUksiXX0D', 'base64')));

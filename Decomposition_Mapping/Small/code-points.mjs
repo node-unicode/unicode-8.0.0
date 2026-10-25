@@ -1,3 +1,4 @@
-import { gunzipSync } from 'node:zlib';
+import { brotliDecompressSync } from 'node:zlib';
+import decodeMapping from '../../decode-mapping.mjs';
 
-export default new Map(JSON.parse(gunzipSync(Buffer.from('H4sIAAAAAAAAEz2QwQ0EMQgDG/IjEMKSWqz038Ypu2eeI2ONBZnLRoAR5+CFBZp7bXGCkYICVycbXPUHG2BOgYGzwcFyc+EEYwiu2QSvuWt5aYmeNxutq4+1xTY4dewDnLp0A0NydzBk8LukOwGmZvkCszsJpjZ6gbuTK9Vr5pU+AgMzzjk/4MDDxGABAAA=', 'base64'))));
+export default decodeMapping(brotliDecompressSync(Buffer.from('H54A+I2Uq2PLkv3OH2d5i9VLySAZZLNhFv27n2ZiWiDD4xpVVEGmBzzqf2B8LtBAIF/B5QWieolTnVB9UIxew8kZN9jxhriJtcHyr5dDIb+6dmcKptsA', 'base64')).toString());
